@@ -1,15 +1,25 @@
 import random
 
-def guessing_game():
-    """This function is a number guessing game that takes user inputs and 
-    provides basic feedback.
-    """
+def guessing_game(lower_limit: int = 1, upper_limit: int = 10, 
+                  guesses_allowed: int = 5):
+    """A number guessing game that takes user inputs and provides basic 
+        feedback.
     
-    answer = random.randint(0, 10)
-    first_guess = True
+    Args:
+        lower_limit (int, optional): Lower limit of randomly generated number.
+        upper_limit (int, optional): Upper limit of randomly generated number.
+        guesses_allowed (int, optional): Maximum number of guesses allowed per 
+            game.
+        
+    """
+    print("Welcome to the Number Guessing Game! I am thinking a number "
+        f"between {lower_limit} and {upper_limit}.")
+    answer = random.randint(lower_limit, upper_limit)
+    guess_count = 1
   
-    while True:
-        guess_as_string = guess_prompt(first_guess)
+    while guess_count <= guesses_allowed:
+        prompt = generate_prompt(guess_count, guesses_allowed)
+        guess_as_string = input(prompt)
         
         try:
             guess = int(guess_as_string)
@@ -22,28 +32,38 @@ def guessing_game():
             break
         
         if answer > guess:
-            print("Too low!")
+            print("Too low...")
             
         if answer < guess:
-            print("Too high!")
+            print("Too high...")
+        
+        guess_count += 1
+    
+    if answer != guess:
+        print("Better luck next time!")
 
-def guess_prompt(first_guess):
-    """This function determines which prompt to give the user, depending on 
-    whether or not it is their first guess.
+
+def generate_prompt(guess_count: int, guesses_allowed: int) -> str:
+    """Generates the correct prompt for the user.
 
     Args:
-        first_guess ([type]): [description]
+        guess_count (int): Current guess count.
+        guesses_allowed (int): Number of guesses allowed.
 
     Returns:
-        [type]: [description]
+        prompt (str): Correct prompt for the user.
+        
     """
     
-    if first_guess:
-        guess_as_string = input("What number am I thinking of? ")
-        first_guess = False
-    else:   
-        guess_as_string = input("Try again: ")
+    if guess_count == 1:
+        prompt = "What number am I thinking of? "
+    elif guess_count == guesses_allowed:
+        prompt = "This is your final guess. Good luck! " 
+    else:
+        guesses_remaining = guesses_allowed - guess_count + 1
+        prompt = f"Try again! You have {guesses_remaining} guesses remaining. "
     
-    return guess_as_string;
+    return prompt;
+
 
 guessing_game()
