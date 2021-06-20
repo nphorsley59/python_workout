@@ -12,6 +12,7 @@ def guessing_game(lower_limit: int = 1, upper_limit: int = 10,
             game.
         
     """
+    
     print("Welcome to the Number Guessing Game! I am thinking a number "
         f"between {lower_limit} and {upper_limit}.")
     answer = random.randint(lower_limit, upper_limit)
