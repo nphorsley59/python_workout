@@ -1,10 +1,10 @@
 # <div align="center">Python Workout: 50 ten-minute exercises</div>
-<br>
+
 
 # Section 1
-<br>
+
 ### Exercise 1 - Number guessing game 
-<br>
+
 
 - Write a function that takes no arguments.
 - When run, the function chooses a random integer between 0 and 100 (inclusive).
