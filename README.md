@@ -18,7 +18,7 @@ I didn't enjoy the user experience for the generic solution to this exercise. Th
 
 {try-except image}
 
-The second improvement I made was to give the "game master" parameters to customize. This included the upper and lower limit of the random integer as well as the number of attempts the user had to correctly guess the number.
+The second improvement I made was to give the "game master" parameters to customize. This included the upper and lower limit of the random integer as well as the number of attempts the user had to correctly guess the number. Note: this *technically* breaks the rules of the exercise
 
 {docstring image}
 
