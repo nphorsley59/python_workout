@@ -3,7 +3,9 @@
 
 # Section 1
 <br>
-### Exercise 1 - Number guessing game <br>
+### Exercise 1 - Number guessing game 
+<br>
+
 - Write a function that takes no arguments.
 - When run, the function chooses a random integer between 0 and 100 (inclusive).
 - Then ask the user to guess what number has been chosen.
