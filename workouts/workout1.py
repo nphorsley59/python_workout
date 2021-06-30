@@ -1,6 +1,6 @@
 import random
 
-def guessing_game(lower_limit: int = 1, upper_limit: int = 10, 
+def guessing_game(lower_limit: int = 1, upper_limit: int = 100, 
                   guesses_allowed: int = 5):
     """A number guessing game that takes user inputs and provides basic 
         feedback.
