@@ -1,8 +1,8 @@
-# <div align="center">Python Workout: 50 ten-minute exercises</div>
+# <div align="center">Python Workout: 10 ten-minute exercises</div>
 
 <br/>
 
-# Section 1
+# Section 1 - Numeric types
 
 ### Exercise 1 - Number guessing game 
 
@@ -18,3 +18,5 @@
 - The program only exits after the user guesses correctly.
 
 ### My Solution
+
+### Exercise 2 - Summing numbers
