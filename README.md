@@ -18,7 +18,7 @@ I didn't enjoy the user experience for the generic solution to this exercise. Th
 
 ![alt_text](https://github.com/nphorsley59/python_workout/blob/main/images/E1_try-except.png "try-except block")
 
-The second improvement I made was to give the "game master" parameters to customize. This included the upper and lower limit of the random integer as well as the number of attempts the user had to correctly guess the number. Note: this *technically* breaks the rules of the exercise, but the added replay value more than make up for it.  <br/>
+The second improvement I made was to give the "game master" parameters to customize. This included the upper and lower limit of the random integer as well as the number of attempts the user had to correctly guess the number. Note: this *technically* breaks the rules of the exercise, but the added replay value more than makes up for it.  <br/>
 
 ![alt_text](https://github.com/nphorsley59/python_workout/blob/main/images/E1_docstring.png "docstring")
 
