@@ -27,3 +27,8 @@ View the full solution [here](https://github.com/nphorsley59/python_workout/blob
 <br/>
 
 ### Exercise 2 - Summing numbers
+- Write a function that does the same thing as the built-in sum function.
+- Instead of taking a single sequence as a parameter, it should take a variable number of arguments.
+- Using the built-in sum function is not allowed.
+
+### My Solution
