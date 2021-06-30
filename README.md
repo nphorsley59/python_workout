@@ -14,15 +14,15 @@
 - The program only exits after the user guesses correctly.
 
 ### My Solution
-I didn't enjoy the user experience for the generic solution to this exercise. The first improvement I made was to catch non-numeric inputs with a try-except block.
+I didn't enjoy the user experience for the generic solution to this exercise. The first improvement I made was to catch non-numeric inputs with a try-except block. <br/>
 
-{try-except image}
+![alt_text](https://github.com/nphorsley59/python_workout/blob/main/images/E1_try-except.png "try-except block")
 
-The second improvement I made was to give the "game master" parameters to customize. This included the upper and lower limit of the random integer as well as the number of attempts the user had to correctly guess the number. Note: this *technically* breaks the rules of the exercise
+The second improvement I made was to give the "game master" parameters to customize. This included the upper and lower limit of the random integer as well as the number of attempts the user had to correctly guess the number. Note: this *technically* breaks the rules of the exercise  <br/>
 
-{docstring image}
+![alt_text](https://github.com/nphorsley59/python_workout/blob/main/images/E1_docstring.png "docstring")
 
-View the full solution here {link to full solution}.
+View the full solution [here](https://github.com/nphorsley59/python_workout/blob/main/workouts/workout1.py).
 
 <br/>
 
