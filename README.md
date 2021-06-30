@@ -1,5 +1,6 @@
 # <div align="center">Python Workout: 50 ten-minute exercises</div>
 
+<br/>
 
 # Section 1
 
