@@ -41,7 +41,7 @@ def guessing_game(lower_limit: int = 1, upper_limit: int = 100,
         guess_count += 1
     
     if answer != guess:
-        print("Better luck next time!")
+        print("Better luck next time!");
 
 
 def generate_prompt(guess_count: int, guesses_allowed: int) -> str:
