@@ -14,7 +14,7 @@
 - The program only exits after the user guesses correctly.
 
 ### My Solution
-I didn't enjoy the user experience for the generic solution to this exercise. The first improvement I made was to catch non-numeric inputs with a try-except block. <br/>
+I felt like the user experience for the generic solution to this exercise was lacking. The first improvement I made was to catch non-numeric inputs with a try-except block. <br/>
 
 ![alt_text](https://github.com/nphorsley59/python_workout/blob/main/images/E1_try-except.png "try-except block")
 
