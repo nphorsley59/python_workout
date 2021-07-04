@@ -14,7 +14,7 @@
 - The program only exits after the user guesses correctly.
 
 ### My Solution
-I didn't enjoy the user experience for the generic solution to this exercise. The first improvement I made was to catch non-numeric inputs with a try-except block. <br/>
+I built upon the generic solution to this game because I felt like the user experience was lacking. The first improvement I made was to catch non-numeric inputs with a try-except block. <br/>
 
 ![alt_text](https://github.com/nphorsley59/python_workout/blob/main/images/E1_try-except.png "try-except block")
 
@@ -32,3 +32,14 @@ View the full solution [here](https://github.com/nphorsley59/python_workout/blob
 - Using the built-in sum function is not allowed.
 
 ### My Solution
+Writing a solution to the base requirements of this exercise was pretty straight-forward. By prefixing a function parameter with \*, it can accept any number of arguments. For fun, I recreated the sum() function exactly (it accepts two parameters, an iterable and a starting point).
+
+![alt_text]()
+
+I also put it to use in a simple counting task.
+
+![alt_text]()
+
+View the full solution [here]().
+
+<br/>
