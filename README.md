@@ -40,6 +40,6 @@ I also put it to use in a simple counting task.
 
 ![alt_text](https://github.com/nphorsley59/python_workout/blob/main/images/E2_counting.png "counting")
 
-View the full solution [here]().
+View the full solution [here](https://github.com/nphorsley59/python_workout/blob/main/workouts/workout2.py).
 
 <br/>
