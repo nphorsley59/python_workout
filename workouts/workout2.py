@@ -1,3 +1,4 @@
+
 def my_sum(numbers: list[int], start: int = 0) -> int:
     """Adds initial value (start) and items in a list of integers.
     
@@ -55,4 +56,6 @@ def count_letters(words: list[str]) -> list[int]:
 
 
 test_words = ["Bunting", "Cardinal", "Jay", "Falcon", "Flamingo"]
-print(count_letters(test_words))
+results = count_letters(test_words)
+print(f"Input: {test_words}")
+print(f"Longest word: {results[0]} letters\nShortest word: {results[1]} letters\nAverage word: {results[2]} letters")
