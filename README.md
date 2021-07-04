@@ -32,3 +32,14 @@ View the full solution [here](https://github.com/nphorsley59/python_workout/blob
 - Using the built-in sum function is not allowed.
 
 ### My Solution
+Writing a solution to the base requirements of this exercise was pretty straight-forward. By prefixing a function parameter with \*, it can accept any number of arguments. For fun, I recreated the sum() function exactly (it accepts two parameters, an iterable and a starting point).
+
+![alt_text]()
+
+I also put it to use in a simple counting task.
+
+![alt_text]()
+
+View the full solution [here]().
+
+<br/>
